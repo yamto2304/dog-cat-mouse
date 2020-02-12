@@ -1,3 +1,5 @@
 function Cat() {
-	// body...
+	this.name = name;
 }
+
+module.exports = Cat;

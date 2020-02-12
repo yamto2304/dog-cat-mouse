@@ -1,3 +1,5 @@
 function Mouse(argument) {
-	// body...
+	this.name = name;
 }
+
+module.exports = Mouse;
