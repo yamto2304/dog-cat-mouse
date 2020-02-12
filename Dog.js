@@ -10,7 +10,7 @@ Dog.prototype.eat = function(Cat) {
 };
 
 Dog.prototype.sayHi = function(){
-	console.log('Gaugau ' + chalk.red(this.name) + '!!');
+	console.log('MeoMeo ' + chalk.red(this.name) + '!!');
 };
 
 module.exports = Dog;
