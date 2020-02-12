@@ -1,5 +1,5 @@
 function Mouse(argument) {
-	this.name = name;
+	//this.name = name;
 	this.dead = false;
 }
 
