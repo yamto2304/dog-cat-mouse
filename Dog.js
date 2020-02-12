@@ -15,7 +15,7 @@ Dog.prototype.eat = function(animal) {
 };
 
 Dog.prototype.sayHi = function(){
-	console.log('MeoMeo ' + chalk.red(this.name) + '!!');
+	console.log('GauGau ' + chalk.red(this.name) + '!!');
 	dog.eat(cat);
 	console.log(dog);
 };
