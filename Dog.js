@@ -1,4 +1,7 @@
 var chalk = require('chalk');
+var Mouse = require('./Mouse');
+var mouse = new Mouse();
+var dog = new Dog();
 
 function Dog(name) {
 	this.name = name;
@@ -11,7 +14,7 @@ Dog.prototype.eat = function(Animal) {
 
 Dog.prototype.sayHi = function(){
 	console.log('MeoMeo ' + chalk.red(this.name) + '!!');
-	dog.eat(Mouse);
+	dog.eat(mouse);
 };
 
 module.exports = Dog;
